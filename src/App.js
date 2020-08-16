@@ -18,6 +18,18 @@ import Container from "@material-ui/core/Container";
 import Tooltip from "@material-ui/core/Tooltip";
 import Zoom from "@material-ui/core/Zoom";
 import ZoomAnimate from "react-reveal/Zoom";
+import ProjectCard from "./Components/ProjectCard/ProjectCard";
+import Amusik from "./Components/ProjectCard/Amusik.jpg";
+
+const Projects = {
+  Amusik: {
+    title: "Amusik",
+    Description: "A music streaming web app made with react and node.js",
+    image: Amusik,
+    siteLink: "https://amusik.herokuapp.com/",
+    gitLink: "https://github.com/vimaljais/Amusik",
+  },
+};
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -213,12 +225,11 @@ function App() {
       <React.Fragment>
         <CssBaseline />
         <ZoomAnimate left>
-          <Container maxWidth="xl">
+          <Container style={{ height: "100vh" }} maxWidth="xl">
             <Typography
               component="div"
               style={{
                 backgroundColor: "transparent",
-                height: "100vh",
                 marginTop: "10px",
                 paddingTop: "30px",
               }}
@@ -237,6 +248,17 @@ function App() {
                 Recent Projects
               </div>
             </Typography>
+            <Grid container spacing={0}>
+              <Grid item xs={12} md={6} lg={6}>
+                <ProjectCard
+                  title={Projects.Amusik.title}
+                  description={Projects.Amusik.Description}
+                  imageFile={Projects.Amusik.image}
+                  siteLink={Projects.Amusik.siteLink}
+                  gitLink={Projects.Amusik.gitLink}
+                />
+              </Grid>
+            </Grid>
           </Container>
         </ZoomAnimate>
       </React.Fragment>

@@ -15,6 +15,16 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 345,
     marginTop: "50px",
+    background: "rgba(0, 0, 0, .7) ",
+  },
+  typo: {
+    color: "dodgerblue",
+  },
+  typo2: {
+    color: "white",
+  },
+  linkcolor: {
+    color: "tomato",
   },
 });
 
@@ -23,25 +33,43 @@ const ProjectCard = ({ imageFile, description, title, siteLink, gitLink }) => {
 
   return (
     <Card className={classes.root}>
-      <CardActionArea>
-        <Link href={siteLink} rel="noopener" target="_blank">
-          <CardMedia
-            component="img"
-            alt="Project Image"
-            height="400"
-            image={imageFile}
+      <Link
+        style={{ textDecoration: "none" }}
+        href={siteLink}
+        rel="noopener"
+        target="_blank"
+      >
+        <CardActionArea>
+          <Tooltip
+            TransitionComponent={Zoom}
             title={title}
-          />
-        </Link>
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            {title}
-          </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            {description}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
+            placement="top"
+            arrow
+          >
+            <CardMedia
+              component="img"
+              alt="Project Image"
+              height="400"
+              image={imageFile}
+              title={title}
+            />
+          </Tooltip>
+
+          <CardContent>
+            <Typography
+              className={classes.typo}
+              gutterBottom
+              variant="h5"
+              component="h2"
+            >
+              {title}
+            </Typography>
+            <Typography className={classes.typo2} variant="body2" component="p">
+              {description}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+      </Link>
       <CardActions>
         <Tooltip
           className="grow"
@@ -50,7 +78,7 @@ const ProjectCard = ({ imageFile, description, title, siteLink, gitLink }) => {
           arrow
         >
           <Link href={gitLink} rel="noopener" target="_blank">
-            <Button size="small" color="primary">
+            <Button className={classes.linkcolor} size="small" color="primary">
               Github code
             </Button>
           </Link>
@@ -62,7 +90,7 @@ const ProjectCard = ({ imageFile, description, title, siteLink, gitLink }) => {
           arrow
         >
           <Link href={siteLink} rel="noopener" target="_blank">
-            <Button size="small" color="primary">
+            <Button className={classes.linkcolor} size="small" color="primary">
               Take me to App
             </Button>
           </Link>

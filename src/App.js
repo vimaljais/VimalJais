@@ -20,6 +20,7 @@ import Zoom from "@material-ui/core/Zoom";
 import ZoomAnimate from "react-reveal/Zoom";
 import ProjectCard from "./Components/ProjectCard/ProjectCard";
 import Amusik from "./Components/ProjectCard/Amusik.jpg";
+import SmartBrain from "./Components/ProjectCard/SmartBrain.jpg";
 
 const Projects = {
   Amusik: {
@@ -28,6 +29,13 @@ const Projects = {
     image: Amusik,
     siteLink: "https://amusik.herokuapp.com/",
     gitLink: "https://github.com/vimaljais/Amusik",
+  },
+  SmartBrain: {
+    title: "SmartBrain Face Detection",
+    Description: `A face detection app which accepts a image url and detects the face in it. Made with React, node.js, Clarifai API, and handles user database using Postgres. Signup required.`,
+    image: SmartBrain,
+    siteLink: "https://smart-brain-vimalj.herokuapp.com/",
+    gitLink: "https://github.com/vimaljais/FaceRecognition-SmartBrain",
   },
 };
 
@@ -248,14 +256,23 @@ function App() {
                 Recent Projects
               </div>
             </Typography>
-            <Grid container spacing={0}>
-              <Grid item xs={12} md={6} lg={6}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} sm={6} md={6} lg={3}>
                 <ProjectCard
                   title={Projects.Amusik.title}
                   description={Projects.Amusik.Description}
                   imageFile={Projects.Amusik.image}
                   siteLink={Projects.Amusik.siteLink}
                   gitLink={Projects.Amusik.gitLink}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={3}>
+                <ProjectCard
+                  title={Projects.SmartBrain.title}
+                  description={Projects.SmartBrain.Description}
+                  imageFile={Projects.SmartBrain.image}
+                  siteLink={Projects.SmartBrain.siteLink}
+                  gitLink={Projects.SmartBrain.gitLink}
                 />
               </Grid>
             </Grid>

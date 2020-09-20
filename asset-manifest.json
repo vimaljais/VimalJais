@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/VimalJais/static/css/main.5953adbc.chunk.css",
-    "main.js": "/VimalJais/static/js/main.7175a958.chunk.js",
-    "main.js.map": "/VimalJais/static/js/main.7175a958.chunk.js.map",
+    "main.js": "/VimalJais/static/js/main.224f848b.chunk.js",
+    "main.js.map": "/VimalJais/static/js/main.224f848b.chunk.js.map",
     "runtime-main.js": "/VimalJais/static/js/runtime-main.4b9f6d5b.js",
     "runtime-main.js.map": "/VimalJais/static/js/runtime-main.4b9f6d5b.js.map",
     "static/css/2.fcacfceb.chunk.css": "/VimalJais/static/css/2.fcacfceb.chunk.css",
-    "static/js/2.1d119bb2.chunk.js": "/VimalJais/static/js/2.1d119bb2.chunk.js",
-    "static/js/2.1d119bb2.chunk.js.map": "/VimalJais/static/js/2.1d119bb2.chunk.js.map",
+    "static/js/2.7dd8d529.chunk.js": "/VimalJais/static/js/2.7dd8d529.chunk.js",
+    "static/js/2.7dd8d529.chunk.js.map": "/VimalJais/static/js/2.7dd8d529.chunk.js.map",
     "index.html": "/VimalJais/index.html",
-    "precache-manifest.376e38c8559de05a6f737aa88edc3986.js": "/VimalJais/precache-manifest.376e38c8559de05a6f737aa88edc3986.js",
+    "precache-manifest.028428048678c4e9124fcb5bcbe89c35.js": "/VimalJais/precache-manifest.028428048678c4e9124fcb5bcbe89c35.js",
     "service-worker.js": "/VimalJais/service-worker.js",
     "static/css/2.fcacfceb.chunk.css.map": "/VimalJais/static/css/2.fcacfceb.chunk.css.map",
     "static/css/main.5953adbc.chunk.css.map": "/VimalJais/static/css/main.5953adbc.chunk.css.map",
-    "static/js/2.1d119bb2.chunk.js.LICENSE.txt": "/VimalJais/static/js/2.1d119bb2.chunk.js.LICENSE.txt",
+    "static/js/2.7dd8d529.chunk.js.LICENSE.txt": "/VimalJais/static/js/2.7dd8d529.chunk.js.LICENSE.txt",
     "static/media/Amusik.jpg": "/VimalJais/static/media/Amusik.46fe5011.jpg",
     "static/media/SmartBrain.jpg": "/VimalJais/static/media/SmartBrain.bc83a86b.jpg",
+    "static/media/WatchLife.jpg": "/VimalJais/static/media/WatchLife.927c9ab2.jpg",
     "static/media/index.css": "/VimalJais/static/media/background.11eee562.jpg",
     "static/media/bootstrap.png": "/VimalJais/static/media/bootstrap.a354cdfa.png",
     "static/media/css3.png": "/VimalJais/static/media/css3.0f2ae466.png",
@@ -28,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.4b9f6d5b.js",
     "static/css/2.fcacfceb.chunk.css",
-    "static/js/2.1d119bb2.chunk.js",
+    "static/js/2.7dd8d529.chunk.js",
     "static/css/main.5953adbc.chunk.css",
-    "static/js/main.7175a958.chunk.js"
+    "static/js/main.224f848b.chunk.js"
   ]
 }

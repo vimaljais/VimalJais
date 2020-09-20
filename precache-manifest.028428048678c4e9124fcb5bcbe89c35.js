@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2278849f1e49d15fa94e73918bb7a0c7",
+    "revision": "c1e7c29ae0b5c6d9645784caa092afaf",
     "url": "/VimalJais/index.html"
   },
   {
-    "revision": "a1021bc67bb92b0958dd",
+    "revision": "59fc72257482a0e89dc8",
     "url": "/VimalJais/static/css/2.fcacfceb.chunk.css"
   },
   {
-    "revision": "f9153c3ea5dfaf9aa7d4",
+    "revision": "7b82950b759602514b94",
     "url": "/VimalJais/static/css/main.5953adbc.chunk.css"
   },
   {
-    "revision": "a1021bc67bb92b0958dd",
-    "url": "/VimalJais/static/js/2.1d119bb2.chunk.js"
+    "revision": "59fc72257482a0e89dc8",
+    "url": "/VimalJais/static/js/2.7dd8d529.chunk.js"
   },
   {
     "revision": "3da521dbb4874350fb1d5ccbd1bab881",
-    "url": "/VimalJais/static/js/2.1d119bb2.chunk.js.LICENSE.txt"
+    "url": "/VimalJais/static/js/2.7dd8d529.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9153c3ea5dfaf9aa7d4",
-    "url": "/VimalJais/static/js/main.7175a958.chunk.js"
+    "revision": "7b82950b759602514b94",
+    "url": "/VimalJais/static/js/main.224f848b.chunk.js"
   },
   {
     "revision": "a153d9c407176df5ab73",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "bc83a86bace9f540ab6fb7325ad5052f",
     "url": "/VimalJais/static/media/SmartBrain.bc83a86b.jpg"
+  },
+  {
+    "revision": "927c9ab2a09b20aeb1806f7642d6ba05",
+    "url": "/VimalJais/static/media/WatchLife.927c9ab2.jpg"
   },
   {
     "revision": "11eee562c47e913915376f7a6066859c",

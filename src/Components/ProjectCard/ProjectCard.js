@@ -28,7 +28,7 @@ const useStyles = makeStyles({
   },
 });
 
-const ProjectCard = ({ imageFile, description, title, siteLink, gitLink }) => {
+const ProjectCard = ({ imageFile, description, titles, siteLink, gitLink }) => {
   const classes = useStyles();
 
   return (
@@ -42,7 +42,7 @@ const ProjectCard = ({ imageFile, description, title, siteLink, gitLink }) => {
         <CardActionArea>
           <Tooltip
             TransitionComponent={Zoom}
-            title={title}
+            title={titles}
             placement="top"
             arrow
           >
@@ -51,7 +51,7 @@ const ProjectCard = ({ imageFile, description, title, siteLink, gitLink }) => {
               alt="Project Image"
               height="400"
               image={imageFile}
-              title={title}
+              title={titles}
             />
           </Tooltip>
 
@@ -62,7 +62,7 @@ const ProjectCard = ({ imageFile, description, title, siteLink, gitLink }) => {
               variant="h5"
               component="h2"
             >
-              {title}
+              {titles}
             </Typography>
             <Typography className={classes.typo2} variant="body2" component="p">
               {description}

@@ -21,7 +21,7 @@ import ZoomAnimate from "react-reveal/Zoom";
 import ProjectCard from "./Components/ProjectCard/ProjectCard";
 import Amusik from "./Components/ProjectCard/Amusik.jpg";
 import SmartBrain from "./Components/ProjectCard/SmartBrain.jpg";
-
+import WatchLife from "./Components/ProjectCard/WatchLife.jpg";
 const Projects = {
   Amusik: {
     title: "Amusik",
@@ -36,6 +36,13 @@ const Projects = {
     image: SmartBrain,
     siteLink: "https://smart-brain-vimalj.herokuapp.com/",
     gitLink: "https://github.com/vimaljais/FaceRecognition-SmartBrain",
+  },
+  WatchLife: {
+    title: "WatchLife - Movie browsing App",
+    image: WatchLife,
+    Description: `A movie browsing app made on top of React.js and Node.js using OMDB API`,
+    siteLink: "https://watchlife.herokuapp.com/",
+    gitLink: "https://github.com/vimaljais/WatchLife",
   },
 };
 
@@ -259,7 +266,7 @@ function App() {
             <Grid container spacing={3}>
               <Grid item xs={12} sm={6} md={6} lg={3}>
                 <ProjectCard
-                  title={Projects.Amusik.title}
+                  titles={Projects.Amusik.title}
                   description={Projects.Amusik.Description}
                   imageFile={Projects.Amusik.image}
                   siteLink={Projects.Amusik.siteLink}
@@ -268,11 +275,20 @@ function App() {
               </Grid>
               <Grid item xs={12} sm={6} md={6} lg={3}>
                 <ProjectCard
-                  title={Projects.SmartBrain.title}
+                  titles={Projects.SmartBrain.title}
                   description={Projects.SmartBrain.Description}
                   imageFile={Projects.SmartBrain.image}
                   siteLink={Projects.SmartBrain.siteLink}
                   gitLink={Projects.SmartBrain.gitLink}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={3}>
+                <ProjectCard
+                  titles={Projects.WatchLife.title}
+                  description={Projects.WatchLife.Description}
+                  imageFile={Projects.WatchLife.image}
+                  siteLink={Projects.WatchLife.siteLink}
+                  gitLink={Projects.WatchLife.gitLink}
                 />
               </Grid>
             </Grid>

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1e7c29ae0b5c6d9645784caa092afaf",
+    "revision": "8f142aefbee282795825d28f40aa01ee",
     "url": "/VimalJais/index.html"
   },
   {
-    "revision": "59fc72257482a0e89dc8",
-    "url": "/VimalJais/static/css/2.fcacfceb.chunk.css"
+    "revision": "c6760dc2ef2ef69618a4",
+    "url": "/VimalJais/static/css/2.193133a3.chunk.css"
   },
   {
-    "revision": "7b82950b759602514b94",
-    "url": "/VimalJais/static/css/main.5953adbc.chunk.css"
+    "revision": "91b6e1986ad086f4c66d",
+    "url": "/VimalJais/static/css/main.5a30cf8a.chunk.css"
   },
   {
-    "revision": "59fc72257482a0e89dc8",
-    "url": "/VimalJais/static/js/2.7dd8d529.chunk.js"
+    "revision": "c6760dc2ef2ef69618a4",
+    "url": "/VimalJais/static/js/2.08074463.chunk.js"
   },
   {
     "revision": "3da521dbb4874350fb1d5ccbd1bab881",
-    "url": "/VimalJais/static/js/2.7dd8d529.chunk.js.LICENSE.txt"
+    "url": "/VimalJais/static/js/2.08074463.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7b82950b759602514b94",
-    "url": "/VimalJais/static/js/main.224f848b.chunk.js"
+    "revision": "91b6e1986ad086f4c66d",
+    "url": "/VimalJais/static/js/main.3867d562.chunk.js"
   },
   {
     "revision": "a153d9c407176df5ab73",
@@ -70,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8babec4be0d2e86a45a1c517483b7689",
     "url": "/VimalJais/static/media/react.8babec4b.png"
+  },
+  {
+    "revision": "6685a5e04dc4e02b731ec340e1a305e3",
+    "url": "/VimalJais/static/media/technopoint.6685a5e0.jpg"
   }
 ]);

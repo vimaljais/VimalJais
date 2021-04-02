@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/VimalJais/precache-manifest.028428048678c4e9124fcb5bcbe89c35.js"
+  "/VimalJais/precache-manifest.78ce0d88ad718fbe806c0a090d6cfe25.js"
 );
 
 self.addEventListener('message', (event) => {

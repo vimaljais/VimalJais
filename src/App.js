@@ -22,7 +22,16 @@ import ProjectCard from "./Components/ProjectCard/ProjectCard";
 import Amusik from "./Components/ProjectCard/Amusik.jpg";
 import SmartBrain from "./Components/ProjectCard/SmartBrain.jpg";
 import WatchLife from "./Components/ProjectCard/WatchLife.jpg";
+import Technopoint from "./Components/ProjectCard/technopoint.jpg";
+
 const Projects = {
+  Technopoint: {
+    title: "TechnoPoint",
+    Description: "Landing page for a construction firm",
+    image: Technopoint,
+    siteLink: "https://techno-point.netlify.app/",
+    gitLink: "https://github.com/vimaljais/TechnoPoint-Landing",
+  },
   Amusik: {
     title: "Amusik",
     Description: "A music streaming web app made with react and node.js",
@@ -289,6 +298,15 @@ function App() {
                   imageFile={Projects.WatchLife.image}
                   siteLink={Projects.WatchLife.siteLink}
                   gitLink={Projects.WatchLife.gitLink}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={6} lg={3}>
+                <ProjectCard
+                  titles={Projects.Technopoint.title}
+                  description={Projects.Technopoint.Description}
+                  imageFile={Projects.Technopoint.image}
+                  siteLink={Projects.Technopoint.siteLink}
+                  gitLink={Projects.Technopoint.gitLink}
                 />
               </Grid>
             </Grid>

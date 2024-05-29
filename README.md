@@ -1,11 +1,6 @@
 ### Hi there 👋
 
-## This is my portfolio Page - http://vimaljais.github.io/VimalJais
-
-- 🔭 I’m currently working on Data Structures and Algorithms.
-- 🌱 I’m currently learning Vanilla Javascipt.
-- 👯 I’m looking to collaborate on MERN Stack.
-- 📫 How to reach me: jaiswalvimal@gmail.com | mail me!!!
+[## This is my portfolio Page - http://vimaljais.github.io/VimalJais](https://vimaljaiswal.vercel.app/)
 
 <!--
 **vimaljais/VimalJais** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

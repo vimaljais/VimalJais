@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[## This is my portfolio Page - http://vimaljais.github.io/VimalJais](https://vimaljaiswal.vercel.app/)
+## Nice to meet you. I am [Vimal](https://vimaljaiswal.vercel.app/) 
 
 <!--
 **vimaljais/VimalJais** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
